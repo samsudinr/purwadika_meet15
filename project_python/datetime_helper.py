@@ -1,6 +1,6 @@
 from datetime import datetime
 
-# feedback loop
+# this function for convert datetime
 def datetime_conv(row_data):
   try:
     return datetime.strptime(row_data, '%Y-%m-%d')
