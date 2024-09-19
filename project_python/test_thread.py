@@ -1,11 +1,7 @@
 import threading
 import os
 import time 
-
-def worker():
-    time.sleep(1)
-    starttime = time.time()
-    print(f"thread Id : {threading.get_ident()},process ID: {os.getpid()},timestamp : {starttime}")
+from helper_project import worker
 
 if __name__ == "__main__":
     print(f"Main process ID: {os.getpid()}")
