@@ -3,3 +3,4 @@ def getHello(nama):
 
 alpha = input("Masukan Nama")
 getHello(alpha)
+print('The code is done')
