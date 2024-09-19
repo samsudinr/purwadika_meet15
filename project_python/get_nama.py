@@ -5,7 +5,6 @@ alpha = input("Masukan Nama")
 getHello(alpha)
 print('The code is done')
 
-
 # basic function
 def basic_func(x):
     if x == 0:
@@ -14,3 +13,7 @@ def basic_func(x):
         return 'even'
     else:
         return 'odd'
+
+for i in alpha:
+    print(i)
+    print(len(alpha))
