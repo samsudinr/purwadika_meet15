@@ -8,10 +8,4 @@ def basic_func(x):
     else:
         return 'odd'
     
-starttime = time.time()
-for i in range(0,10):
-    y = i*i
-    time.sleep(2)
-    print('{} squared results in a/an {} number'.format(i, basic_func(y)))
-    
-print('That took {} seconds'.format(time.time() - starttime))
+basic_func(10)
