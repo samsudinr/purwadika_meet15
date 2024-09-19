@@ -12,4 +12,4 @@ def datetime_conv(row_data):
             return datetime.strptime(row_data, '%Y-%m-%dT%H:%M:%S')
         except:
             return datetime.strptime(row_data, '%Y/%m/%d')
-            return datetime.strptime(row_data, '%Y/%m/%d')
+
